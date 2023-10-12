@@ -31,6 +31,8 @@
   align-items: center;
   background-color: #fff;
   min-height: 100vh;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 
 .inside-style {
@@ -137,4 +139,19 @@
 
 .subpagedesc-style {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  padding: 70px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
 }
