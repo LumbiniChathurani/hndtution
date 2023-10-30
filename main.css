@@ -16,7 +16,7 @@
   height: 100px;
   border-bottom: 1px solid rgb(196, 193, 199);
   box-shadow: 1px 1px 5px 0px gray;
-  background-image: url("/mushroom-plants-glowing-4k-cd-2560x1440.jpg");
+  background-image: url("/mushroom2.jpeg");
 }
 
 .bodybox-style {
@@ -113,7 +113,7 @@
 }
 
 .page-style {
-  background-image: url("/mushroom-plants-glowing-4k-cd-2560x1440.jpg");
+  background-image: url("/mushroom2.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -159,7 +159,7 @@
 .glow {
   animation: glow 1s ease-in-out infinite alternate;
 }
-@-webkit-keyframes glow {
+/* @-webkit-keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0b5e09,
       0 0 40px #076d1d, 0 0 50px #106317, 0 0 60px #369e0c, 0 0 70px #43a363;
@@ -169,4 +169,4 @@
     text-shadow: 0 0 20px #fff, 0 0 30px #1b4b23, 0 0 40px #45c770,
       0 0 50px #183d1a, 0 0 60px #235e37, 0 0 70px #16702a, 0 0 80px #31854d;
   }
-}
+} */

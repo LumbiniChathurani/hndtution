@@ -1,0 +1,67 @@
+.top-barstyle {
+  display: flex;
+  background-color: rgb(255, 252, 252);
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid rgb(196, 193, 199);
+  box-shadow: 1px 1px 5px 0px gray;
+  background-image: url("/public/science4.jpg");
+}
+
+.logo-style {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  color: white;
+}
+
+.link-style {
+  display: flex;
+  flex: 3;
+  justify-content: space-evenly;
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .link-style {
+    display: flex;
+  }
+}
+
+.link-contentstyle {
+  text-decoration: none;
+  font-size: medium;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: aliceblue;
+}
+
+.link-contentstyle::after {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 0px;
+  height: 1px;
+  border-bottom: 2px solid rgb(23, 23, 134);
+  content: "";
+  transition: width linear 100ms;
+}
+
+.link-contentstyle:hover {
+  color: rgb(23, 23, 134);
+  background-color: lavender;
+}
+
+.link-contentstyle:hover::after {
+  width: 100%;
+}
+
+.page-style {
+  background-image: url("/public/science4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}

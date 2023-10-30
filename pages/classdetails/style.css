@@ -7,7 +7,7 @@
   height: 100px;
   border-bottom: 1px solid rgb(196, 193, 199);
   box-shadow: 1px 1px 5px 0px gray;
-  background-image: url("/mushroom-plants-glowing-4k-cd-2560x1440.jpg");
+  background-image: url("/mushroom2.jpeg");
 }
 
 .logo-style {
@@ -99,7 +99,7 @@ th {
 }
 
 .page-style {
-  background-image: url("/mushroom-plants-glowing-4k-cd-2560x1440.jpg");
+  background-image: url("/mushroom2.jpeg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
