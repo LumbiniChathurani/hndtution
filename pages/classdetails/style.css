@@ -91,11 +91,18 @@ td,
 th {
   border: 1px solid white;
   border-collapse: collapse;
-  text-align: left;
-  padding: 8px;
+  text-align: center;
+  padding: 15px;
   background-color: rgb(109, 176, 235);
   border-style: inset;
   border-width: 5px;
+}
+
+th {
+  background-color: cadetblue;
+}
+td {
+  background-color: darksalmon;
 }
 
 .page-style {
