@@ -7,7 +7,7 @@
   height: 100px;
   border-bottom: 1px solid rgb(196, 193, 199);
   box-shadow: 1px 1px 5px 0px gray;
-  background-image: url("/mushroom2.jpeg");
+  background-image: url("/pages/orange.jpg");
 }
 
 .logo-style {
@@ -73,40 +73,65 @@
 .text1-style {
   text-align: center;
   font-family: sans-serif;
+  color: black;
 }
 
 .list-style {
   margin-left: 508px;
-  color: azure;
+  color: black;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-table {
-  border: 1px solid gray;
-  border-collapse: collapse;
-  width: 100%;
+.table1 {
+  border: none;
+   width: 75%;
+  margin-left: 200px;
 }
 
-td,
-th {
-  border: 1px solid white;
-  border-collapse: collapse;
+.table1 td,
+.table1 th {
+ text-align: center;
+  padding: 15px;
+ 
+}
+
+.table1 th {
+  background-color: orangered;
+  color: rgb(0, 255, 132);
+font-family: monospace;
+font-size: xx-large;
+}
+.table1 td {
+  background-color: rgb(11, 7, 11);
+  font-family: monospace;
+  font-size: xx-large;
+  color: azure;
+}
+.table2 {
+  border: none;
+  width: 75%;
+  margin-left: 200px;
+  font-family: monospace;
+}
+
+.table2 td,
+.table2 th {
   text-align: center;
   padding: 15px;
-  background-color: rgb(109, 176, 235);
-  border-style: inset;
-  border-width: 5px;
+
 }
 
-th {
+.table2 th {
+background-color: orangered;
+  color: rgb(250, 208, 128);
+  font-size: xx-large;
+}
+.table2 td {
   background-color: cadetblue;
+  font-size: xx-large;
 }
-td {
-  background-color: darksalmon;
-}
-
 .page-style {
-  background-image: url("/mushroom2.jpeg");
+  background-image: url("/pages/orange.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -117,21 +142,54 @@ td {
   justify-content: center;
 }
 
-.flex-container > div {
-  background-color: aliceblue;
+.flex-content1 {
+  display: flex;
+  background-color: rgb(11, 7, 11);
+  width: 800px;
+  height: 450px;
+  margin: 10px;
+  font-size: 30px;
+  border: 5px solid rgb(11, 7, 11);
+  border-radius: 8%;
+  box-shadow: 2px 2px 5px rgb(24, 18, 23);
+ justify-content: center;
+ margin: 10px;
+ -webkit-backdrop-filter: blur(5px);
+ backdrop-filter: blur(5px);
+}
+.flex-items {
+  margin: 20px;
+}
+
+.flex-content2 {
+  background-color: #d4e68c;
+  width: 800px;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  border: 5px solid #d4e68c;
+  border-radius: 8%;
+  box-shadow: 5px 5px 10px #d4e68c;
+}
+
+.flex-content3 {
+  background-color: rgb(11, 7, 11);
   width: 800px;
   margin: 10px;
   text-align: center;
   line-height: 300px;
   font-size: 30px;
+  border: 5px solid  rgb(11, 7, 11);
+  border-radius: 8%;
+  box-shadow: 2px 2px 5px rgb(11, 14, 11);
 }
 
-.flex-container2 {
+.flex-container4 {
   display: flex;
   justify-content: center;
 }
 
-.flex-container2 > div {
+.flex-container4 > div {
   background-color: aliceblue;
   width: 100px;
   margin: 10px;
@@ -148,4 +206,16 @@ td {
   background-color: black;
   color: aliceblue;
   text-align: center;
+}
+
+.location-text {
+  color: rgb(10, 10, 107);
+  font-family: fantasy;
+}
+
+.topic {
+  font-family: cursive;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
 }
