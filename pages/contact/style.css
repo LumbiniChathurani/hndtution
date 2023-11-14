@@ -72,3 +72,26 @@
   margin-left: 150px;
   margin-bottom: 100px;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+.media {
+  padding: 20px 20px 0 120;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.media li a {
+  text-decoration: none;
+  color: bisque;
+  font-size: 25px;
+}
+.media li a:hover {
+  color: yellow;
+}

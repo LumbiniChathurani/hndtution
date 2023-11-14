@@ -102,7 +102,7 @@ font-family: monospace;
 font-size: xx-large;
 }
 .table1 td {
-  background-color: rgb(11, 7, 11);
+  background-color: rgb(96, 211, 125);
   font-family: monospace;
   font-size: xx-large;
   color: azure;
@@ -127,8 +127,9 @@ background-color: orangered;
   font-size: xx-large;
 }
 .table2 td {
-  background-color: cadetblue;
+  background-color: rgb(186, 119, 186);
   font-size: xx-large;
+  color: white;
 }
 .page-style {
   background-image: url("/pages/orange.jpg");
@@ -177,11 +178,11 @@ background-color: orangered;
   width: 800px;
   margin: 10px;
   text-align: center;
-  line-height: 300px;
-  font-size: 30px;
+  font-size: 20px;
   border: 5px solid  rgb(11, 7, 11);
   border-radius: 8%;
   box-shadow: 2px 2px 5px rgb(11, 14, 11);
+  color: white;
 }
 
 .flex-container4 {
@@ -196,6 +197,7 @@ background-color: orangered;
   text-align: center;
   line-height: 100px;
   font-size: 30px;
+  margin: 50px;
 }
 
 .footer {
@@ -219,3 +221,22 @@ background-color: orangered;
   text-align: center;
   color: black;
 }
+.tute{
+  height: 200px;
+  width: 150px;
+}
+.media {
+  padding: 20px 20px 0 120;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.media li a {
+  text-decoration: none;
+  color: bisque;
+  font-size: 25px;
+}
+.media li a:hover {
+  color: yellow;
+}
+
