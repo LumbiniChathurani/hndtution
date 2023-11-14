@@ -71,9 +71,9 @@
   flex-direction: row;
 }
 .container2-child1 {
-  background-color: aliceblue;
+ color: #f2f2f2;
   width: 1000px;
-  margin-left: 50px;
+  margin-left: 250px;
   margin-top: 100px;
   margin-right: 50px;
   text-align: center;

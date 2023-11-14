@@ -36,7 +36,7 @@
   position: relative;
   padding: 10px 20px;
   border-radius: 8px;
-  color: aliceblue;
+  color: rgb(11, 12, 14);
 }
 
 .link-contentstyle::after {

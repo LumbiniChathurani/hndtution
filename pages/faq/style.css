@@ -88,3 +88,7 @@
 .media li a:hover {
   color: yellow;
 }
+.text {
+  color: white;
+  margin: 20px;
+}

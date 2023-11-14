@@ -156,17 +156,6 @@
   color: white;
 }
 
-.glow {
-  animation: glow 1s ease-in-out infinite alternate;
-}
-/* @-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0b5e09,
-      0 0 40px #076d1d, 0 0 50px #106317, 0 0 60px #369e0c, 0 0 70px #43a363;
-  }
 
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #1b4b23, 0 0 40px #45c770,
-      0 0 50px #183d1a, 0 0 60px #235e37, 0 0 70px #16702a, 0 0 80px #31854d;
-  }
-} */
+
+
