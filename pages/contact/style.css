@@ -7,7 +7,7 @@
   height: 100px;
   border-bottom: 1px solid rgb(196, 193, 199);
   box-shadow: 1px 1px 5px 0px gray;
-  background-image: url("/public/science3.jpg");
+  background-image: url("/public/grey.jpg");
 }
 
 .logo-style {
@@ -36,7 +36,7 @@
   position: relative;
   padding: 10px 20px;
   border-radius: 8px;
-  color: rgb(11, 12, 14);
+  color: rgb(246, 248, 251);
 }
 
 .link-contentstyle::after {
@@ -60,7 +60,7 @@
 }
 
 .page-style {
-  background-image: url("/public/science3.jpg");
+  background-image: url("/public/grey.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;

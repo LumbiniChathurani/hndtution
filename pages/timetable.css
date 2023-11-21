@@ -1,0 +1,59 @@
+.pagestyle {
+    background-color: coral;
+}
+.topic {
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+  }
+  .table1 {
+    border: none;
+     width: 75%;
+    margin-left: 200px;
+  }
+  
+  .table1 td,
+  .table1 th {
+   text-align: center;
+    padding: 15px;
+   
+  }
+  
+  .table1 th {
+    background-color: orangered;
+    color: rgb(0, 255, 132);
+  font-family: monospace;
+  font-size: xx-large;
+  }
+  .table1 td {
+    background-color: rgb(96, 211, 125);
+    font-family: monospace;
+    font-size: xx-large;
+    color: azure;
+  }
+  .table2 {
+    border: none;
+    width: 75%;
+    margin-left: 200px;
+    font-family: monospace;
+  }
+  
+  .table2 td,
+  .table2 th {
+    text-align: center;
+    padding: 15px;
+  
+  }
+  
+  .table2 th {
+  background-color: orangered;
+    color: rgb(250, 208, 128);
+    font-size: xx-large;
+  }
+  .table2 td {
+    background-color: rgb(186, 119, 186);
+    font-size: xx-large;
+    color: white;
+  }
+ 
