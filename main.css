@@ -147,15 +147,25 @@
   padding: 70px;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
+footer {
+  background-color: rgb(4, 7, 7);
+  height: auto;
 }
 
 
+.media {
+  padding: 40px;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.media li a {
+  text-decoration: none;
+  color: bisque;
+  font-size: 25px;
+}
+.media li a:hover {
+  color: rgb(255, 47, 0);
+}
 
 

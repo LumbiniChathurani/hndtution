@@ -56,4 +56,13 @@
     font-size: xx-large;
     color: white;
   }
- 
+
+  .zoom {
+    transition: transform .1s;
+   }
+   
+   .zoom:hover {
+     -ms-transform: scale(1.05); 
+     -webkit-transform: scale(1.05); 
+     transform: scale(1.05); 
+   }
