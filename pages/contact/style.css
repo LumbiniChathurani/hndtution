@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
 .top-barstyle {
   display: flex;
   background-color: rgb(255, 252, 252);
@@ -70,7 +76,7 @@
   margin-bottom: 1000px;
 }
 
-.footer {
+/*.footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -92,4 +98,26 @@
 }
 .media li a:hover {
   color: yellow;
+}*/
+
+footer {
+  background-color: rgb(4, 7, 7);
+  height: fit-content;
+ width: auto;
+}
+
+
+.media {
+  padding: 40px;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.media li a {
+  text-decoration: none;
+  color: bisque;
+  font-size: 25px;
+}
+.media li a:hover {
+  color: rgb(255, 47, 0);
 }

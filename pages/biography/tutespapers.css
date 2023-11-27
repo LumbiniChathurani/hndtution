@@ -1,0 +1,57 @@
+.pagestyle{
+    background-color: cadetblue;
+}
+.button {
+    background-color: #2dda27;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #4987da;
+    color: rgb(18, 16, 16);
+  }
+  
+  .button-vessle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container {
+    display: flex;
+  }
+  .button2 {
+    background-color: #cf369a;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+    transition-duration: 0.4s;
+  }
+  
+  .button2:hover {
+    background-color: rgb(236, 223, 76);
+    color: rgb(18, 16, 16);
+    
+  }
+  
+  .button2-vessle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

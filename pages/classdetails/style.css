@@ -1,3 +1,9 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
 .top-barstyle {
   display: flex;
   background-color: rgb(255, 252, 252);
@@ -202,7 +208,7 @@ background-color: orangered;
   margin: 50px;
 }
 
-.footer {
+/*.footer {
   position: fixed;
   left: 0;
   bottom: 0;
@@ -210,7 +216,7 @@ background-color: orangered;
   background-color: black;
   color: aliceblue;
   text-align: center;
-}
+}*/
 
 .location-text {
   color: rgb(10, 10, 107);
@@ -233,14 +239,14 @@ background-color: orangered;
   display: flex;
   gap: 20px;
 }
-.media li a {
+/*.media li a {
   text-decoration: none;
   color: bisque;
   font-size: 25px;
 }
 .media li a:hover {
   color: yellow;
-}
+}*/
 .button {
   background-color: #7b04aa;
   border: none;
@@ -274,4 +280,25 @@ background-color: orangered;
   -ms-transform: scale(1.01); 
   -webkit-transform: scale(1.01); 
   transform: scale(1.01); 
+}
+
+footer {
+  background-color: rgb(4, 7, 7);
+  height: auto;
+}
+
+
+.media {
+  padding: 40px;
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+.media li a {
+  text-decoration: none;
+  color: bisque;
+  font-size: 25px;
+}
+.media li a:hover {
+  color: rgb(255, 47, 0);
 }
