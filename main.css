@@ -9,14 +9,14 @@
 
 .top-barstyle {
   display: flex;
-  background-color: rgb(255, 252, 252);
+  background-color: rgb(4, 5, 87);
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   height: 100px;
   border-bottom: 1px solid rgb(196, 193, 199);
   box-shadow: 1px 1px 5px 0px gray;
-  background-image: url("/mushroom2.jpeg");
+  /*background-image: url("/mushroom2.jpeg");*/
 }
 
 .bodybox-style {
@@ -79,6 +79,8 @@
   position: relative;
   padding: 10px 20px;
   border-radius: 8px;
+  font-family: cursive;
+  font-weight: bold;
 }
 
 .link-contentstyle::after {
