@@ -1,11 +1,89 @@
+
+
 .pagestyle {
-    background-color: coral;
+   /* background-color: rgb(126, 126, 231);*/
+   margin: 0;
+   padding: 0;
+
 }
+.top-barstyle {
+  display: flex;
+  background-color: rgb(1, 33, 108);
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid rgb(196, 193, 199);
+  box-shadow: 1px 1px 5px 0px gray;
+  /*background-image: url("/public/science3.jpg");*/
+}
+.logo-style {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  color: white;
+}
+.link-style {
+  display: flex;
+  flex: 3;
+  justify-content: space-evenly;
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .link-style {
+    display: flex;
+  }
+}
+
+.link-contentstyle {
+  color: rgb(248, 247, 247);
+font-family: cursive;
+font-weight: bold;
+color: #d4e68c;
+}
+.link-contentstyle {
+  text-decoration: none;
+  font-size: medium;
+  position: relative;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.link-contentstyle::after {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 0px;
+  height: 1px;
+  border-bottom: 2px solid rgb(23, 23, 134);
+  content: "";
+  transition: width linear 100ms;
+}
+
+.link-contentstyle:hover {
+  color: rgb(23, 23, 134);
+  background-color: lavender;
+}
+
+.link-contentstyle:hover::after {
+  width: 100%;
+}
+
+
+.wrapper{
+  position: absolute;
+  width: 100%;
+  /*height: 100%;*/
+  overflow: scroll;
+  background: linear-gradient(90deg, rgba(2,0,.6,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
 .topic {
     font-family: cursive;
     font-size: xx-large;
     text-align: center;
-    color: black;
+    color: white;
   }
   .table1 {
     border: none;
@@ -21,16 +99,16 @@
   }
   
   .table1 th {
-    background-color: orangered;
-    color: rgb(0, 255, 132);
+    background-color: rgb(129, 122, 119);
+    color: rgb(205, 251, 229);
   font-family: monospace;
   font-size: xx-large;
   }
   .table1 td {
-    background-color: rgb(96, 211, 125);
+    background-color: rgb(206, 225, 248);
     font-family: monospace;
     font-size: xx-large;
-    color: azure;
+    color: rgb(12, 14, 14);
   }
   .table2 {
     border: none;
@@ -47,14 +125,14 @@
   }
   
   .table2 th {
-  background-color: orangered;
+  background-color: rgb(191, 0, 255);
     color: rgb(250, 208, 128);
     font-size: xx-large;
   }
   .table2 td {
-    background-color: rgb(186, 119, 186);
+    background-color: rgb(191, 165, 191);
     font-size: xx-large;
-    color: white;
+    color: rgb(5, 5, 5);
   }
 
   .zoom {
@@ -66,3 +144,81 @@
      -webkit-transform: scale(1.05); 
      transform: scale(1.05); 
    }
+
+   /*.box div{
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 6px solid rgba(255,255,255,0.8);
+   }
+   .box div:nth-child(1){
+    top: 12%;
+    left: 42%;
+    animation: animate 10s linear infinite;
+   }
+   .box div:nth-child(2){
+    top: 70%;
+    left: 50%;
+    animation: animate 7s linear infinite;
+   }
+   .box div:nth-child(3){
+    top: 17%;
+    left: 6%;
+    animation: animate 9s linear infinite;
+   }
+   .box div:nth-child(4){
+    top: 20%;
+    left: 60%;
+    animation: animate 10s linear infinite;
+   }
+   .box div:nth-child(5){
+    top: 67%;
+    left: 10%;
+    animation: animate 6s linear infinite;
+   }
+   .box div:nth-child(6){
+    top: 80%;
+    left: 70%;
+    animation: animate 12s linear infinite;
+   }
+   .box div:nth-child(7){
+    top: 60%;
+    left: 80%;
+    animation: animate 15s linear infinite;
+   }
+   .box div:nth-child(8){
+    top: 32%;
+    left: 25%;
+    animation: animate 16s linear infinite;
+   }
+   .box div:nth-child(9){
+    top: 90%;
+    left: 25%;
+    animation: animate 9s linear infinite;
+   }
+   .box div:nth-child(10){
+    top: 20%;
+    left: 80%;
+    animation: animate 5s linear infinite;
+   }*/
+   footer {
+    background-color: rgb(30, 5, 142);
+    height: auto;
+  }
+  
+  
+  .media {
+    padding: 40px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  .media li a {
+    text-decoration: none;
+    color: bisque;
+    font-size: 25px;
+  }
+  .media li a:hover {
+    color: rgb(255, 47, 0);
+  }
+  

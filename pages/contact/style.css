@@ -6,14 +6,14 @@
 
 .top-barstyle {
   display: flex;
-  background-color: rgb(255, 252, 252);
+  background-color: rgb(106, 72, 4);
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   height: 100px;
   border-bottom: 1px solid rgb(196, 193, 199);
   box-shadow: 1px 1px 5px 0px gray;
-  background-image: url("/public/grey.jpg");
+  /*background-image: url("/public/grey.jpg");*/
 }
 
 .logo-style {
@@ -42,7 +42,9 @@
   position: relative;
   padding: 10px 20px;
   border-radius: 8px;
-  color: rgb(246, 248, 251);
+  color: rgb(243, 243, 94);
+  font-family: cursive;
+  font-weight: bold;
 }
 
 .link-contentstyle::after {
@@ -73,7 +75,7 @@
 }
 .map {
   margin-left: 350px;
-  margin-bottom: 1000px;
+  margin-bottom: 200px;
 }
 
 /*.footer {
@@ -101,7 +103,7 @@
 }*/
 
 footer {
-  background-color: rgb(4, 7, 7);
+  background-color: rgb(52, 35, 2);
   height: fit-content;
  width: auto;
 }
@@ -120,4 +122,8 @@ footer {
 }
 .media li a:hover {
   color: rgb(255, 47, 0);
+}
+.text{
+  margin-top: 50px;
+  margin-left: 50px;
 }
